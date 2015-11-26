@@ -86,7 +86,7 @@ var privateKey = "59b396b28c5da7868178e137519ec82fb1ba386bef4f3da028b7803367cf2e
 var key = new RSAKeyPair(publicKey,privateKey,"10001",1024);
 //console.log("key:",key);
 
-var string = encryptedString(key,"{123:567}");
+var string = encryptedString(key,"{123:hehe}");
 console.log("string:",string);
 
 var decodeString = decryptedString(key,string);
