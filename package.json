@@ -1,0 +1,19 @@
+{
+  "name": "rn-rsa",
+  "version": "0.0.1",
+  "description": "rsa for react native,not work fine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "rsa"
+  ],
+  "author": "zhaoran",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.7",
+    "buffer": "^3.5.2"
+  }
+}
