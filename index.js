@@ -73,6 +73,7 @@ function createKey(opt){
     return createKeys(opt);
 }
 
+export.RSAKeyPair = RSAKeyPair;
 exports.encryptedString = encryptedString;
 exports.decryptedString = decryptedString;
 exports.createKey = createKey;
