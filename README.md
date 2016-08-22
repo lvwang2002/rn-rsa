@@ -1,6 +1,6 @@
 # rn-rsa
 ## how to install
-  >npm intall rn-rsa@https://github.com/lvwang2002/rn-rsa.git --save
+  >`npm intall rn-rsa@https://github.com/lvwang2002/rn-rsa.git --save`
   
 ## how to create key pair
 
