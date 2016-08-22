@@ -1,8 +1,8 @@
 # rn-rsa
-## how to install
+## How to install
   >`npm intall rn-rsa@https://github.com/lvwang2002/rn-rsa.git --save`
   
-## how to create key pair
+## How to create key pair
 
 ```js
   var key = createKey({bits:1024}) //default value:2048;
@@ -11,7 +11,7 @@
 ```  
 
 
-## how to use
+## How to use
 
 ```js
 var key = new RSAKeyPair(publicKey,privateKey,"10001",1024);
