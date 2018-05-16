@@ -9,7 +9,7 @@ var util = forge.util = {};
  * Expose `keypair`.
  */
 
-module.exports = function (opts) {
+exports.keypair = function (opts) {
   if (!opts) opts = {};
   if (typeof opts.bits == 'undefined') opts.bits = 2048;
   var keypair = forge.rsa.generateKeyPair(opts);
